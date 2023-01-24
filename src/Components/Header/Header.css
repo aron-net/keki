@@ -6,6 +6,10 @@
   background-color: var(--primary) !important;
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
+
 .border-inner {
   position: relative;
 }
