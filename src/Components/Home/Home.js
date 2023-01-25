@@ -12,7 +12,11 @@ const Home = () => {
           <div className="col-lg-8 text-center text-lg-start">
             <h1 className="font-secondary text-primary mb-4">Super Crispy</h1>
             <h1 className="display-1 text-uppercase text-white mb-4">Keki</h1>
-            <h1 className="text-uppercase text-white">The Best Cake Online Shop</h1>
+            <h2 className="text-uppercase text-white">
+              <span>From Our Oven to Your Door</span>
+              <br />
+              <span>Discover the Art of Cake Making at Keki</span>
+            </h2>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
               <Button onClick={() => setModalShow(true)} className="btn-play"><span /></Button>
               <h5 className="font-weight-normal text-white m-0 ms-4 d-none d-sm-block"> Play Video </h5>

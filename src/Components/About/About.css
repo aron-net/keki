@@ -1,0 +1,38 @@
+.section-title {
+  max-width: 600px;
+}
+
+.img-fluid {
+  object-fit: cover;
+}
+
+.imgCon {
+  min-height: 400px;
+}
+
+.fa-heartbeat-container {
+  width: 90px;
+  height: 90px;
+}
+
+.section-title::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 10px;
+  left: 50%;
+  bottom: 0;
+  margin-left: -30px;
+  background: var(--primary);
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 180px;
+  height: 2px;
+  left: 50%;
+  bottom: 4px;
+  margin-left: -90px;
+  background: var(--primary);
+}

@@ -1,5 +1,5 @@
 .hero-header {
-  background: url('../../Image/hero.jpg') top right no-repeat;
+  background: url('../Image/hero.jpg') top right no-repeat;
   background-size: cover;
 }
 

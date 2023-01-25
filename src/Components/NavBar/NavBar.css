@@ -14,6 +14,15 @@
   color: var(--primary);
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbarAr {
+  z-index: 1;
+}
+
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
