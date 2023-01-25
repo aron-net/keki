@@ -4,6 +4,7 @@ import './NavBar.css';
 const NavBar = () => {
   const [showMenu, setShow] = useState(false);
   const [navbarClass, setNavbarClass] = useState('navbar');
+  const [activePage, setActivePage] = useState('home');
   const toggleMenu = () => {
     setShow(!showMenu);
   };
@@ -43,20 +44,11 @@ const NavBar = () => {
         role="presentation"
       >
         <div className="navbar-nav ms-auto mx-lg-auto py-0">
-          <a href="#homePage" className="nav-item nav-link active">
+          <a href="#homePage" onClick={() => setActivePage('home')} className={activePage === 'home' ? 'active' : ''}>
             Home
           </a>
-          <a href="#aboutPage" className="nav-item nav-link">
+          <a href="#aboutPage" onClick={() => setActivePage('about')} className={activePage === 'about' ? 'active' : ''}>
             About Us
-          </a>
-          <a href="menu.html" className="nav-item nav-link">
-            Menu & Pricing
-          </a>
-          <a href="team.html" className="nav-item nav-link">
-            Master Chefs
-          </a>
-          <a href="contact" className="nave-item nav-link">
-            Contact Us
           </a>
         </div>
       </div>

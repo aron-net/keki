@@ -15,7 +15,7 @@ const Home = () => {
             <h2 className="text-uppercase text-white">
               <span>From Our Oven to Your Door</span>
               <br />
-              <span>Discover the Art of Cake Making at Keki</span>
+              <span>A Piece of Cake for Every Occasion</span>
             </h2>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
               <Button onClick={() => setModalShow(true)} className="btn-play"><span /></Button>

@@ -36,3 +36,7 @@
   margin-left: -90px;
   background: var(--primary);
 }
+
+.bg-img {
+  background: url('../Image/bg.jpg') top right no-repeat;
+}
