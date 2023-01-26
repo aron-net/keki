@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Nav, Button } from 'react-bootstrap';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -22,21 +23,21 @@ const NavBar = () => {
   const shadow = `${showMenu ? 'navbar-collapse collapse' : 'navbar-collapse'}`;
   const classes = `navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg px-3 px-lg-0 ${navbarClass}`;
   return (
-    <nav className={classes}>
-      <a href="#home" className="navbar-brand d-block d-lg-none">
+    <Nav className={classes}>
+      <Nav.Link href="#home" className="navbar-brand d-block d-lg-none">
         <h1 className="m-0 text-uppercase text-white">
           <i className="fa fa-birthday-cake fs-1 text-primary me-3" />
           Keki
         </h1>
-      </a>
-      <button
+      </Nav.Link>
+      <Button
         className="navbar-toggler"
         type="button"
         onClick={toggleMenu}
         onKeyDown={toggleMenu}
       >
         <span className="navbar-toggler-icon" />
-      </button>
+      </Button>
       <div
         className={shadow}
         onClick={toggleMenu}
@@ -52,7 +53,7 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-    </nav>
+    </Nav>
   );
 };
 export default NavBar;
