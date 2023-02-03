@@ -1,5 +1,5 @@
-import Container from '../../UI/Container';
-import Pane from '../../UI/Pane';
+import Container from '../../../UI/Container';
+import Pane from '../../../UI/Pane';
 import './Header.css';
 
 const Header = () => (
