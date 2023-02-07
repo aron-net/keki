@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Nav, Button } from 'react-bootstrap';
 import './NavBar.css';
@@ -45,12 +46,12 @@ const NavBar = () => {
         role="presentation"
       >
         <div className="navbar-nav ms-auto mx-lg-auto py-0">
-          <a href="#homePage" onClick={() => setActivePage('home')} className={activePage === 'home' ? 'active' : ''}>
+          <NavLink to="/" onClick={() => setActivePage('home')} className={activePage === 'home' ? 'active' : ''}>
             Home
-          </a>
-          <a href="#aboutPage" onClick={() => setActivePage('about')} className={activePage === 'about' ? 'active' : ''}>
+          </NavLink>
+          <NavLink to="/about" onClick={() => setActivePage('about')} className={activePage === 'about' ? 'active' : ''}>
             About Us
-          </a>
+          </NavLink>
         </div>
       </div>
     </Nav>

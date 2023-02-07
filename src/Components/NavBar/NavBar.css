@@ -8,6 +8,13 @@ a {
   outline: none;
   transition: 0.5s;
   text-decoration: none;
+  border: 2px solid red;
+  width: 20%;
+}
+
+.navbar-nav{
+  margin: auto;
+  border: 2px solid green;
 }
 
 a:hover {

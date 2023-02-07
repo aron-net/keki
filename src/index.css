@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 :root {
   --primary: #e88f2a;
   --secondary: #faf3eb;
