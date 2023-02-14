@@ -3,7 +3,7 @@ import Pane from '../../UI/Pane';
 import './Header.css';
 
 const Header = () => (
-  <div className="container-fluid px-0 d-none d-lg-block">
+  <div className="container-fluid px-0 d-none d-lg-block header-hero">
     <div className="row gx-o">
       <Container className="bg-secondary py-3">
         <Pane>
