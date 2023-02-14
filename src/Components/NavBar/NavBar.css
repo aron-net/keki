@@ -8,12 +8,18 @@ a {
   outline: none;
   transition: 0.5s;
   text-decoration: none;
-  width: 20%;
 }
 
+.navbar-brand {
+  display: flex;
+  justify-items: center;
+  width: 20% !important;
+}
 .navbar-nav{
   margin: auto;
-  border: 2px solid green;
+  text-align: center;
+  display: flex;
+  width: 60%;
 }
 
 a:hover {
@@ -33,6 +39,17 @@ a:hover {
   z-index: 1;
 }
 
+.navbar-toggler {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent !important;
+  border: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 25px !important;
+}
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
