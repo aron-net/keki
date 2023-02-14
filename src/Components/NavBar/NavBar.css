@@ -15,7 +15,8 @@ a {
   justify-items: center;
   width: 20% !important;
 }
-.navbar-nav{
+
+.navbar-nav {
   margin: auto;
   text-align: center;
   display: flex;
@@ -50,6 +51,7 @@ a:hover {
 .navbar-toggler-icon {
   font-size: 25px !important;
 }
+
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;

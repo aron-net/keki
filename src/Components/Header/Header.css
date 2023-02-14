@@ -1,7 +1,7 @@
 .bg-secondary {
- background-image: url('../Image/navBar-cake.png') !important;
- background-position: center;
-} 
+  background-image: url('../Image/navBar-cake.png') !important;
+  background-position: center;
+}
 
 .bg-primary {
   background-color: var(--primary) !important;

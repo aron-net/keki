@@ -39,5 +39,5 @@
 
 .bg-img {
   background: url('../Image/bg.jpg');
-  background-position: cover;
+  background-size: cover;
 }
