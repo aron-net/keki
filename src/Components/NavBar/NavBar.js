@@ -52,6 +52,9 @@ const NavBar = () => {
           <NavLink to="/about" onClick={() => setActivePage('about')} className={activePage === 'about' ? 'active' : ''}>
             About Us
           </NavLink>
+          <NavLink to="/about" onClick={() => setActivePage('about')} className={activePage === 'about' ? 'active' : ''}>
+            About Us
+          </NavLink>
         </div>
       </div>
     </Nav>

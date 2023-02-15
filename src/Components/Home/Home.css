@@ -1,6 +1,7 @@
 .hero-header {
-  background: url('../Image/hero.jpg') top right no-repeat;
+  background: url('../Image/cake-background.png') center no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .btn-play {

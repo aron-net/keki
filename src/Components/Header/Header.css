@@ -1,5 +1,6 @@
 .bg-secondary {
-  background-color: var(--secondary) !important;
+  background-image: url('../Image/navBar-cake.png') !important;
+  background-position: center;
 }
 
 .bg-primary {
@@ -29,4 +30,18 @@
   background: none;
   border: 1px solid var(--light);
   z-index: 0;
+}
+
+.text-start {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.pane {
+  text-align: center;
+}
+
+.header-hero {
+  background-image: url('../Image/bg.jpg') !important;
+  background-position: center;
 }

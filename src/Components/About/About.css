@@ -38,5 +38,6 @@
 }
 
 .bg-img {
-  background: url('../Image/bg.jpg') top right no-repeat;
+  background: url('../Image/bg.jpg');
+  background-size: cover;
 }

@@ -1,4 +1,4 @@
-import argo from '../Image/about.jpg';
+import argo from '../Image/cake-about.jpg';
 import './About.css';
 
 const About = () => (
