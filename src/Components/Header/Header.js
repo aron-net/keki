@@ -1,5 +1,6 @@
 import Container from '../../UI/Container';
 import Pane from '../../UI/Pane';
+import logo from '../Image/keki-logo.jpg';
 import './Header.css';
 
 const Header = () => (
@@ -17,10 +18,7 @@ const Header = () => (
       <Container className="bg-primary border-inner py-3">
         <Pane>
           <a href="#Home" className="navbar-brand">
-            <h1 className="m-0 text-uppercase text-white">
-              <i className="fa fa-birthday-cake fs-1 text-dark me-3" />
-              KEKI
-            </h1>
+            <img src={logo} alt="logo" className="logo" />
           </a>
         </Pane>
       </Container>

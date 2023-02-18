@@ -4,7 +4,8 @@
 }
 
 .bg-primary {
-  background-color: var(--primary) !important;
+  background: url('../Image/background-about.png') no-repeat;
+  background-size: cover;
 }
 
 .text-primary {
@@ -44,4 +45,9 @@
 .header-hero {
   background-image: url('../Image/bg.jpg') !important;
   background-position: center;
+}
+
+.logo {
+  width: 100%;
+  
 }

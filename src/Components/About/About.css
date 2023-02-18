@@ -1,5 +1,5 @@
 .section-title {
-  max-width: 600px;
+  max-width: 850px;
 }
 
 .img-fluid {
@@ -7,12 +7,20 @@
 }
 
 .imgCon {
-  min-height: 400px;
+  min-height: 350px;
+  padding-bottom: 10px;
 }
 
 .fa-heartbeat-container {
-  width: 90px;
+  width: 110px;
   height: 90px;
+  display: flex;
+  text-align: center;
+}
+
+.argo-ab {
+  width: 80px !important;
+  height: 90px !important;
 }
 
 .section-title::before {
@@ -29,7 +37,7 @@
 .section-title::after {
   position: absolute;
   content: "";
-  width: 180px;
+  width: 280px;
   height: 2px;
   left: 50%;
   bottom: 4px;

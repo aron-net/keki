@@ -11,9 +11,9 @@ const About = () => (
         </div>
       </div>
     </div>
-    <div className="container-fluid pt-5">
+    <div className="container-fluid">
       <div className="container">
-        <div className="section-title position-relative text-center mx-auto mb-5 pb-3">
+        <div className="section-title position-relative text-center mx-auto mb-2 pb-3">
           <h2 className="text-primary font-secondary">About Us</h2>
           <h1 className="display-4 text-uppercase">Welcome To Keki</h1>
         </div>
@@ -33,14 +33,14 @@ const About = () => (
             </p>
             <div className="row g-5">
               <div className="col-sm-6">
-                <div className="fa-heartbeat-container d-flex align-items-center justify-content-center bg-primary border-inner mb-4">
+                <div className="fa-heartbeat-container argo-ab d-flex align-items-center justify-content-center bg-primary border-inner mb-4">
                   <i className="fa fa-heartbeat fa-2x text-white" />
                 </div>
                 <h4 className="text-uppercase">100% Healthy</h4>
                 <p className="mb-0">Indulge in 100% healthy cakes from Keki, made with natural and organic ingredients. Try our gluten-free and vegan options today and taste the difference. </p>
               </div>
               <div className="col-sm-6">
-                <div className="fa-heartbeat-container d-flex align-items-center justify-content-center bg-primary border-inner mb-4">
+                <div className="fa-heartbeat-container d-flex align-items-center justify-content-center bg-primary border-inner mb-4 argo-ab ">
                   <i className="fa fa-award fa-2x text-white" />
                 </div>
                 <h4 className="text-uppercase">Award Winning</h4>
@@ -59,7 +59,7 @@ const About = () => (
               <div className="fa-heartbeat-container bg-primary border-inner d-flex align-items-center justify-content-center mb-3">
                 <i className="fa fa-star text-white" />
               </div>
-              <div className="ps-4">
+              <div className="ps-5">
                 <h6 className="text-primary text-uppercase">Our Experience</h6>
                 <h1 className="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
               </div>
