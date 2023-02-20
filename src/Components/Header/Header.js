@@ -17,8 +17,9 @@ const Header = () => (
       </Container>
       <Container className="bg-primary border-inner py-3">
         <Pane>
-          <a href="#Home" className="navbar-brand">
+          <a href="#Home" className="navbar-brand logo">
             <img src={logo} alt="logo" className="logo" />
+            <h1>Keki</h1>
           </a>
         </Pane>
       </Container>
