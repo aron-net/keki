@@ -1,5 +1,6 @@
 import argo from '../Image/cake-about.jpg';
 import testimonial1 from '../Image/testimonial1.jpg';
+import testimonial2 from '../Image/testimonial2.jpg'
 import './About.css';
 
 const About = () => (
@@ -122,7 +123,7 @@ const About = () => (
                 </div>
                 <div className="testimonial-item bg-dark text-white border-inner p-4">
                     <div className="d-flex align-items-center mb-3">
-                        <img className="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;" />
+                        <img className="img-fluid flex-shrink-0" src={testimonial2} style="width: 60px; height: 60px;" />
                         <div className="ps-3">
                             <h4 className="text-primary text-uppercase mb-1">Client Name</h4>
                             <span>Profession</span>
