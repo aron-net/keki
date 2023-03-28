@@ -1,6 +1,4 @@
 import argo from '../Image/cake-about.jpg';
-import testimonial1 from '../Image/testimonial1.jpg';
-import testimonial2 from '../Image/testimonial2.jpg';
 import './About.css';
 
 const About = () => (
