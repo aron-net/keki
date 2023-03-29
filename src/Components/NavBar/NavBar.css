@@ -52,6 +52,14 @@ a:hover {
   font-size: 25px !important;
 }
 
+.btn {
+  background-color: rgb(45, 46, 44);
+  padding: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+}
+
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;

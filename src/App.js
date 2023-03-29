@@ -1,11 +1,19 @@
+import React, { useContext } from 'react';
+import AuthContext from './Store/auth-context';
+import Login from './Components/Login/Login';
 import UserPage from './Pages/UserPage';
 
-function App() {
+const App = () => {
+  const { isLoggedIn } = useContext(AuthContext);
   return (
-    <div id="homePage">
-      <UserPage />
-    </div>
+    <>
+
+      <main id="homePage">
+        {!isLoggedIn && <Login />}
+        {isLoggedIn && <UserPage />}
+      </main>
+    </>
   );
-}
+};
 
 export default App;
