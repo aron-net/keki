@@ -62,7 +62,7 @@ const NavBar = () => {
           )}
           {isLoggedIn && (
           <div>
-            <button type="button" onClick={onLogout}>Logout</button>
+            <button className="btn" type="button" onClick={onLogout}>Logout</button>
           </div>
           )}
         </div>
